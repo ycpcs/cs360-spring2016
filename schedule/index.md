@@ -14,7 +14,7 @@ All reading materials are from the course textbook:
 > Jan 20    | [Lecture 1: Intro to Algorithms](../lectures/lecture01.html) | Ch. 1 |
 > Jan 22    | [Lecture 2: Insertion Sort](../lectures/lecture02.html) | Ch. 2.1-2.2 |
 > Jan 25    | **NO CLASS - INCLEMENT WEATHER** |  |
-> Jan 22,27 | [Lecture 2: Insertion Sort](../lectures/lecture02.html) cont. | Ch. 2.1-2.2 |
+> Jan 27    | [Lecture 2: Insertion Sort](../lectures/lecture02.html) cont. | Ch. 2.1-2.2 |
 > Jan 27    | [Lecture 3: Asymptotic Notation](../lectures/lecture03.html) | Ch. 3 |
 > Jan 29    | [Lecture 4: Merge Sort](../lectures/lecture04.html) | Ch. 2.3 |
 > Feb 1     | [Lecture 5: Master Theorem](../lectures/lecture05.html) <br /> **Assignment 1 Due** | Ch. 4.5 |
