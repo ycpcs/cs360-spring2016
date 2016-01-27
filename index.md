@@ -19,7 +19,7 @@ All information about the course will be posted here.
 
 * **Jan 20** - Welcome back!
 * **Jan 25 - NO CLASS (Inclement Weather)**
-* **Feb 1** - Assignment 1 Due
+* **Feb 1** - **UPDATE** Assignment 1 Due
 * **Feb 4 - NO CLASS**
 * **Feb 8** - Assignment 2 Due
 * **Feb 10 - EXAM I Due in class Mon, Feb 15**
