@@ -16,7 +16,7 @@ As discussed in the previous lecture, often we are most concerned about the *wor
 
 Thus O() describes how bad our algorithm can grow, i.e. is no worse than. Note: Often it is enough to find a loose upper bound to show that a given algorithm is better than (or at least no worse than) another.
 
-ω() - ("Big Omega")
+𝛀() - ("Big Omega")
 ===================
 
 We can similarly define an *asymptotic lower bound* (again not necessarily tight and often not particularly useful) for a function *f(n)* denoted ω() as follows: Given two functions *f(n)* and *g(n)*
