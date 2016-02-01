@@ -12,7 +12,7 @@ Book Questions from *Introduction to Algorithms - 3rd ed.*
 
 3-2 (with *brief* justifications for *each* row)
 
-4-1 (b,c,d,e), 4-3 (f)
+4-1 (b,c,d,e), 4-3 (a)
 
 Merge sort implementation.
 
@@ -28,7 +28,7 @@ Merge sort implementation.
 >
 > 4-1 - Use the Master theorem by identifying the appropriate cases.
 >
-> 4-3 - Construct a recursion tree to obtain a *guess* at the runtime of O(n). Verify your guess using *substitution*.
+> 4-3 - Remember that logarithms are bounded by polynomials.
 
 **Implementation**
 
