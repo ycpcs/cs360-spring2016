@@ -13,9 +13,9 @@ All reading materials are from the course textbook:
 > ---- | ------- | ------- |
 > Jan 20    | [Lecture 1: Intro to Algorithms](../lectures/lecture01.html) | Ch. 1 |
 > Jan 22, 27| [Lecture 2: Insertion Sort](../lectures/lecture02.html) | Ch. 2.1-2.2 |
-> Jan 27    | [Lecture 3: Asymptotic Notation](../lectures/lecture03.html) | Ch. 3 |
-> Jan 29    | [Lecture 4: Merge Sort](../lectures/lecture04.html) | Ch. 2.3 |
-> Feb 1     | [Lecture 5: Master Theorem](../lectures/lecture05.html) | Ch. 4.5 |
+> Jan 29    | [Lecture 3: Asymptotic Notation](../lectures/lecture03.html) | Ch. 3 |
+> Feb 1     | [Lecture 4: Merge Sort](../lectures/lecture04.html) | Ch. 2.3 |
+> Feb 5     | [Lecture 5: Master Theorem](../lectures/lecture05.html) | Ch. 4.5 |
 > Feb 5     | [Lecture 6: Recurrence](../lectures/lecture06.html) | Ch. 4.3-4.4 |
 > Feb 8,12  | [Lecture 7: Heapsort](../lectures/lecture07.html) | Ch. 6 |
 > Feb 12    | [Lecture 8: Quicksort](../lectures/lecture08.html) | Ch. 7 |

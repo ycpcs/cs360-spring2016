@@ -15,9 +15,10 @@ All reading materials are from the course textbook:
 > Jan 22    | [Lecture 2: Insertion Sort](../lectures/lecture02.html) | Ch. 2.1-2.2 |
 > Jan 25    | **NO CLASS - INCLEMENT WEATHER** |  |
 > Jan 27    | [Lecture 2: Insertion Sort](../lectures/lecture02.html) cont. | Ch. 2.1-2.2 |
-> Jan 27    | [Lecture 3: Asymptotic Notation](../lectures/lecture03.html) | Ch. 3 |
-> Jan 29    | [Lecture 4: Merge Sort](../lectures/lecture04.html) | Ch. 2.3 |
-> Feb 1     | [Lecture 5: Master Theorem](../lectures/lecture05.html) <br /> **Assignment 1 Due** | Ch. 4.5 |
+> Jan 29    | [Lecture 3: Asymptotic Notation](../lectures/lecture03.html) | Ch. 3 |
+> Feb 1     | [Lecture 4: Merge Sort](../lectures/lecture04.html) | Ch. 2.3 |
+> Feb 3     | **NO CLASS** |  |
+> Feb 5     | [Lecture 5: Master Theorem](../lectures/lecture05.html) <br /> **Assignment 1 Due** | Ch. 4.5 |
 > Feb 5     | [Lecture 6: Recurrence](../lectures/lecture06.html) | Ch. 4.3-4.4 |
 > Feb 8     | [Lecture 7: Heapsort](../lectures/lecture07.html) <br /> **Assignment 2 Due** | Ch. 6 |
 > Feb 10    | **EXAM I - Due Feb 15**               |             |
