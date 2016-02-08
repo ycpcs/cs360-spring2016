@@ -21,9 +21,9 @@ All information about the course will be posted here.
 * **Jan 25 - NO CLASS (Inclement Weather)**
 * **Feb 1** - **UPDATE** Assignment 1 Due
 * **Feb 3 - NO CLASS**
-* **Feb 8** - Assignment 2 Due
-* **Feb 10 - EXAM I Due in class Mon, Feb 15**
-* **Feb 19** - Assignment 3 Due
+* **Feb 10** - Assignment 2 Due
+* **Feb 12 - EXAM I Due in class Wed, Feb 17**
+* **Feb 22** - Assignment 3 Due
 * **Feb 26** - Assignment 4 Due
 * **Feb 29, Mar 2, 4 - NO CLASS (Winter Break)**
 * **Mar 9** - Assignment 5 Due
