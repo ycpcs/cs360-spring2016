@@ -22,11 +22,12 @@ All reading materials are from the course textbook:
 > Feb 5     | [Lecture 6: Recurrence](../lectures/lecture06.html) | Ch. 4.3-4.4 |
 > Feb 8     | [Lecture 7: Heapsort](../lectures/lecture07.html) | Ch. 6 |
 > Feb 10    | [Lecture 7: Heapsort cont.](../lectures/lecture07.html)  <br /> **Assignment 2 Due** |   |
-> Feb 10    | [Lecture 8: Quicksort](../lectures/lecture08.html) | Ch. 7 |
 > Feb 12    | **EXAM I - Due Feb 17**               |             |
+> Feb 15    | [Lecture 8: Quicksort](../lectures/lecture08.html) | Ch. 7 |
 > Feb 15,17 | [Lecture 9: Linear Sorting](../lectures/lecture09.html)  | Ch. 8 |
 > Feb 19,22 | [Lecture 10: Probabilistic Analysis](../lectures/lecture10.html) <br /> **Assignment 3 Due** | Ch. 5 |
-> Feb 24    | [Lecture 11: Hash Tables](../lectures/lecture11.html) <br /> **Assignment 4 Due** | Ch. 11 |
+> Feb 24    | [Lecture 11: Hash Tables](../lectures/lecture11.html) | Ch. 11 |
+> Feb 26    | **Assignment 4 Due** |   |
 > Feb 29, Mar 2,4 | **NO CLASS - WINTER BREAK** |    |
 > Mar 7     | Exam II Review |    |
 > Mar 9     | **EXAM II - Due Mar 14** <br /> **Assignment 5 Due**              |             |
