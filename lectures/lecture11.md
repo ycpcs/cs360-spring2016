@@ -17,11 +17,11 @@ Indexing is an O(1) operation (essentially simply an array reference). The limit
 Hash Tables
 ===========
 
-As |*U*| becomes large, the storage requirements for *T* become prohibative, especially since typically only a very small subset of the keys are used. Thus an efficient way to store the data is using a limited size table *T* with *m* slots (thus *T* can be implemented as an array with indices *T*[0..m-1]). The index in the table is computed using a *hashing function h* which maps *h*: *U* → {0,1,...,m-1}, i.e. key *k* hashes to slot *h*(*k*).
+As \|*U*\| becomes large, the storage requirements for *T* become prohibative, especially since typically only a very small subset of the keys are used. Thus an efficient way to store the data is using a limited size table *T* with *m* slots (thus *T* can be implemented as an array with indices *T*[0..m-1]). The index in the table is computed using a *hashing function h* which maps *h*: *U* → {0,1,...,m-1}, i.e. key *k* hashes to slot *h*(*k*).
 
 > ![image](images/lecture11/hashtable.png)
 
-Since m ≪ |*U*| there are several desirable properties for a good hashing function *h*(*k*)
+Since m ≪ \|*U*\| there are several desirable properties for a good hashing function *h*(*k*)
 
 > -   *h*(*k*) should produce (relatively) unique values for distinct *k*'s, i.e. the hashing function should attempt to use all to the slots with equal frequency
 > -   *h*(*k*) should appear "random", i.e. "close" keys should map to "far away" hash values
@@ -101,7 +101,7 @@ While the division method is simple and fast, it often does not produce good has
 
 > ![image](images/lecture11/multhash.png)
 
-where *mod 1* indicates taking the fractional part of *kA* and 0 \< *A* \< 1. With this method the choice of *m* is *not* critical so often a power of 2 is chosen for computational efficiency. For example, if the architecture supports *w*-bit words and we choose *m* = 2<sup>p</sup> (such that *w* \> *p* and |*k*| \< 2<sup>p</sup>), then if we select an integer *s* and let *A* = *s*/2<sup>w</sup> \< 1 we can compute
+where *mod 1* indicates taking the fractional part of *kA* and 0 \< *A* \< 1. With this method the choice of *m* is *not* critical so often a power of 2 is chosen for computational efficiency. For example, if the architecture supports *w*-bit words and we choose *m* = 2<sup>p</sup> (such that *w* \> *p* and \|*k*\| \< 2<sup>p</sup>), then if we select an integer *s* and let *A* = *s*/2<sup>w</sup> \< 1 we can compute
 
 > ![image](images/lecture11/multhasheq1.png)
 
@@ -123,7 +123,7 @@ With any computational hashing function there is always the possibility that cer
 
 We wish to create a (finite) *set of hashing functions H* that map *U* → {0,1,...,m-1} with the property that:
 
-> For any two *distinct* keys *k,l* ∈ *U*, the number of hash functions *h* ∈ *H* such that *h(k) = h(l)* (i.e. the two keys produce a collision) is ≤ |*H*|/*m*.
+> For any two *distinct* keys *k,l* ∈ *U*, the number of hash functions *h* ∈ *H* such that *h(k) = h(l)* (i.e. the two keys produce a collision) is ≤ \|*H*\|/*m*.
 
 Thus if we *randomly* choose a hashing function *h* from the set *H*, the probability that any two keys produce a collision is 1/*m* ⇒ *uniform hashing*. A universal hashing function can be created using the following constructive procedure
 
