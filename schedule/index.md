@@ -29,9 +29,10 @@ All reading materials are from the course textbook:
 > Feb 24    | [Lecture 11: Hash Tables](../lectures/lecture11.html) | Ch. 11 |
 > Feb 26    | **Assignment 4 Due** |   |
 > Feb 29, Mar 2,4 | **NO CLASS - WINTER BREAK** |    |
-> Mar 7     | Exam II Review |    |
-> Mar 9     | **EXAM II - Due Mar 14** <br /> **Assignment 5 Due**              |             |
-> Mar 11,14 | [Lecture 12: Dynamic Programming - Rod Cutting](../lectures/lecture12.html) | Ch. 15 |
+> Mar 7     | [Lecture 12: Dynamic Programming - Rod Cutting](../lectures/lecture12.html) | Ch. 15 |
+> Mar 9     | Exam II Review  <br /> **Assignment 5 Due** |    |
+> Mar 11    | **EXAM II - Due Mar 16**               |             |
+> Mar 14    | [Lecture 12: Dynamic Programming - Rod Cutting](../lectures/lecture12.html) | Ch. 15 |
 > Mar 16    | [Lecture 13: Dynamic Programming - LCS](../lectures/lecture13.html) | Ch. 15 |
 > Mar 18    | [Lecture 14: Greedy Algorithms - Activity Selection](../lectures/lecture14.html) <br /> **Assignment 6 Due**  | Ch. 16 |
 > Mar 21    | [Lecture 15: Graph Theory](../lectures/lecture15.html) | Appendix B.4 |

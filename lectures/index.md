@@ -22,7 +22,7 @@ All reading materials are from the course textbook:
 > Feb 15,17 | [Lecture 9: Linear Sorting](../lectures/lecture09.html) | Ch. 8 |
 > Feb 19,22 | [Lecture 10: Probabilistic Analysis](../lectures/lecture10.html) | Ch. 5 |
 > Feb 24    | [Lecture 11: Hash Tables](../lectures/lecture11.html) | Ch. 11 |
-> Mar 11,14 | [Lecture 12: Dynamic Programming - Rod Cutting](../lectures/lecture12.html) | Ch. 15 |
+> Mar 7,14  | [Lecture 12: Dynamic Programming - Rod Cutting](../lectures/lecture12.html) | Ch. 15 |
 > Mar 16    | [Lecture 13: Dynamic Programming - LCS](../lectures/lecture13.html) | Ch. 15 |
 > Mar 18    | [Lecture 14: Greedy Algorithms - Activity Selection](../lectures/lecture14.html) | Ch. 16 |
 > Mar 21    | [Lecture 15: Graph Theory](../lectures/lecture15.html) | Appendix B.4 |
