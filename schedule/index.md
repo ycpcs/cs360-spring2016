@@ -34,8 +34,8 @@ All reading materials are from the course textbook:
 > Mar 11    | **EXAM II - Due Mar 16**               |             |
 > Mar 14    | [Lecture 12: Dynamic Programming - Rod Cutting](../lectures/lecture12.html) | Ch. 15 |
 > Mar 16    | [Lecture 13: Dynamic Programming - LCS](../lectures/lecture13.html) | Ch. 15 |
-> Mar 18    | [Lecture 14: Greedy Algorithms - Activity Selection](../lectures/lecture14.html) <br /> **Assignment 6 Due**  | Ch. 16 |
-> Mar 21    | [Lecture 15: Graph Theory](../lectures/lecture15.html) | Appendix B.4 |
+> Mar 18    | [Lecture 14: Greedy Algorithms - Activity Selection](../lectures/lecture14.html) | Ch. 16 |
+> Mar 21    | [Lecture 15: Graph Theory](../lectures/lecture15.html) <br /> **Assignment 6 Due** | Appendix B.4 |
 > Mar 23    | [Lecture 16: Breadth-First Search](../lectures/lecture16.html) | Ch. 22.2 |
 > Mar 25, 28| **NO CLASS - SPRING BREAK** |   |
 > Mar 30    | [Lecture 17: Depth-First Search](../lectures/lecture17.html) <br /> **Assignment 7 Due**  | Ch. 22.3 |

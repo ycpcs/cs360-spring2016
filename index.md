@@ -28,7 +28,7 @@ All information about the course will be posted here.
 * **Feb 29, Mar 2, 4 - NO CLASS (Winter Break)**
 * **Mar 9** - Assignment 5 Due
 * **Mar 11 - EXAM II Due in class Wed, Mar 16**
-* **Mar 20** - Assignment 6 Due
+* **Mar 21** - Assignment 6 Due
 * **Mar 30** - Assignment 7 Due
 * **Apr 6** - Assignment 8 Due
 * **Apr 8 - EXAM III Due in class Wed, Apr 13**
