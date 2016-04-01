@@ -32,7 +32,7 @@ The DFS algorithm uses similar fields as BFS but also requires a third one *f* a
 
 At each step in the algorithm we increment the timestamp giving
 
-> 1 ≤ *u.d* \< *u.f* ≤ 2|*V*| for all *u* ∈ *V*
+> 1 ≤ *u.d* \< *u.f* ≤ 2\|*V*\| for all *u* ∈ *V*
 
 Therefore a vertex will be **white** before *u.d*, **gray** between *u.d* and *u.f*, and **black** after *u.f*.
 

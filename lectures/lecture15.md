@@ -81,7 +81,7 @@ In an adjacency list implementation, we simply store the adjacent vertices (i.e.
 
 ⇒ Θ(*V* + *E*) storage is required.
 
-This representation is good for *sparse* graphs where |*E*| ≪ |*V*|<sup>2</sup>. One drawback is that to determine if an edge (*u*, *v*) ∈ *E* requires a list search ⇒ Θ(*V*).
+This representation is good for *sparse* graphs where \|*E*\| ≪ \|*V*\|<sup>2</sup>. One drawback is that to determine if an edge (*u*, *v*) ∈ *E* requires a list search ⇒ Θ(*V*).
 
 For the original directed graph, the adjacency list would be
 
@@ -93,7 +93,7 @@ In an adjacency matrix implementation, we store the edges in a *V*x*V* matrix *A
 
 ⇒ Θ(*V*<sup>2</sup>) storage is required (independent of *E*).
 
-This representation is good for *dense* graphs where |*E*| ≈ |*V*|<sup>2</sup>. The advantage is it only takes Θ(1) time to determine if an edge (*u*, *v*) ∈ *E* since it is simply a matrix element access. If the graph is undirected, then *A* = *A*<sup>T</sup> so only the upper triangular half needs to be stored.
+This representation is good for *dense* graphs where \|*E*\| ≈ \|*V*\|<sup>2</sup>. The advantage is it only takes Θ(1) time to determine if an edge (*u*, *v*) ∈ *E* since it is simply a matrix element access. If the graph is undirected, then *A* = *A*<sup>T</sup> so only the upper triangular half needs to be stored.
 
 For the original directed graph, the adjacency matrix would be
 
