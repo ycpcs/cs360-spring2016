@@ -24,7 +24,7 @@ If *A* is a subset of an MST, then a *safe edge* is one such that
 
 is also a subset of an MST.
 
-We can then find an MST by beginning with any vertex and adding safe edges until *A*<sup>'</sup> forms a spanning tree. This tree will contain |*V*| - 1 edges and be a mininum spanning tree. Hence we simply need a way to determine safe edges.
+We can then find an MST by beginning with any vertex and adding safe edges until *A*<sup>'</sup> forms a spanning tree. This tree will contain \|*V*\| - 1 edges and be a mininum spanning tree. Hence we simply need a way to determine safe edges.
 
 A *cut* is a partition of *V* into two subsets {*S*} and {*V-S*}. An edge *crosses* the cut if one vertex is in {*S*} and the other is in {*V-S*}. A set of edges *A*, *respects* a cut if none of the edges in *A* crosses the cut. A *light edge* is an edge that crosses a cut with minimum weight.
 
@@ -34,7 +34,7 @@ Using these definitions, we can prove the following theorem:
 >
 > If *A* is a subset of an MST, for any cut that respects *A* ⇒ a light edge is a safe edge for *A*. (Note the *converse* is *not* true.)
 
-An immediate corrolary is that if we have a forest of connected components (trees) each with a set of minimum spanning edges, then any light edge between the trees is a safe edge. Hence we can grow the MST by simply adding |*V*| - 1 light edges between subsets of the MST.
+An immediate corrolary is that if we have a forest of connected components (trees) each with a set of minimum spanning edges, then any light edge between the trees is a safe edge. Hence we can grow the MST by simply adding \|*V*\| - 1 light edges between subsets of the MST.
 
 Kruskal's Algorithm
 ===================
