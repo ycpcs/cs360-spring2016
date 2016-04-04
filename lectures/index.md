@@ -27,8 +27,8 @@ All reading materials are from the course textbook:
 > Mar 18    | [Lecture 14: Greedy Algorithms - Activity Selection](../lectures/lecture14.html) | Ch. 16 |
 > Mar 21    | [Lecture 15: Graph Theory](../lectures/lecture15.html) | Appendix B.4 |
 > Mar 23    | [Lecture 16: Breadth-First Search](../lectures/lecture16.html) | Ch. 22.2 |
-> Mar 30    | [Lecture 17: Depth-First Search](../lectures/lecture17.html) | Ch. 22.3 |
-> Apr 1     | [Lecture 18: DFS Applications](../lectures/lecture18.html) | Ch. 22.4-22.5 |
+> Mar 30    | [Lecture 17: Depth-First Search](../lectures/lecture17.html) <br /> [Activity solution](../handouts/lecture17-dfsact-sol.pdf) | Ch. 22.3 |
+> Apr 1     | [Lecture 18: DFS Applications](../lectures/lecture18.html) <br /> [Activity solution](../handouts/lecture18-sccex-sol.pdf) | Ch. 22.4-22.5 |
 > Apr 4     | [Lecture 19: Minimum Spanning Trees - Kruskal](../lectures/lecture19.html) | Ch. 23.1 |
 > Apr 11    | [Lecture 20: Minimum Spanning Trees - Prim](../lectures/lecture20.html) | Ch. 23.2 |
 > Apr 13    | [Lecture 21: Shortest Path - Bellman-Ford](../lectures/lecture21.html) | Ch. 24.1-24.2 |
