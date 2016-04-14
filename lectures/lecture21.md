@@ -28,7 +28,7 @@ The final solution will satisfy certain caveats:
 > -   The solution cannot have any *positive weight cycles* (since the cycle could simply be removed giving a lower weight path).
 > -   The solution can be assumed to have no zero weight cycles (since they would not affect the minimum value).
 
-Therefore given these caveats, we know the shortest paths must be *acyclic* (with ≤ |*V*| distinct vertices) ⇒ ≤ |*V*| - 1 edges in each path.
+Therefore given these caveats, we know the shortest paths must be *acyclic* (with ≤ \|*V*\| distinct vertices) ⇒ ≤ \|*V*\| - 1 edges in each path.
 
 **Generic Algorithm**
 
@@ -67,7 +67,7 @@ The *Bellman-Ford algorithm* uses relaxation to find single source shortest path
 Basically the algorithm works as follows:
 
 > 1.  Initialize *d*'s, π's, and set *s.d* = 0 ⇒ O(*V*)
-> 2.  Loop |*V*|-1 times through all edges checking the relaxation condition to compute minimum distances ⇒ (|*V*|-1) O(*E*) = O(*VE*)
+> 2.  Loop \|*V*\|-1 times through all edges checking the relaxation condition to compute minimum distances ⇒ (\|*V*\|-1) O(*E*) = O(*VE*)
 > 3.  Loop through all edges checking for negative weight cycles which occurs if any of the relaxation conditions fail ⇒ O(*E*)
 
 The run time of the Bellman-Ford algorithm is O(*V* + *VE* + *E*) = O(*VE*).

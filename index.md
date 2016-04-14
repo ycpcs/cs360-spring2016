@@ -34,5 +34,5 @@ All information about the course will be posted here.
 * **Apr 8 - EXAM III Due in class Wed, Apr 13**
 * **Apr 20** - Assignment 9 Due
 * **Apr 27** - Assignment 10 Due
-* **Apr 29 - EXAM IV Due in class Wed, May 4**
+* **Apr 27 - EXAM IV Due in class Wed, May 4**
 * **May 9, 11 - Final Project Due.** Email a .pdf to dbabcock@ycp.edu by noon 5/13 for the final report.
