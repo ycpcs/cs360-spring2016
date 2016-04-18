@@ -64,9 +64,9 @@ Using the above definitions, the following theorem can be proven:
 
 > If *f* is a flow in a network *G* with source *s* and sink *t*, then the following three statements are equivalent:
 >
-> > 1.  *f* is a *maximum flow* in *G* (with value |*f* <sup>\*</sup>|)
+> > 1.  *f* is a *maximum flow* in *G* (with value \|*f* <sup>\*</sup>\|)
 > > 2.  The *residual network* contains **no** *augmenting paths*.
-> > 3.  |*f* | = *c*(*S*,*T*) for some cut (*S*,*T*) of *G*
+> > 3.  \|*f* \| = *c*(*S*,*T*) for some cut (*S*,*T*) of *G*
 
 Generic Maximum Flow Algorithm
 ==============================
@@ -79,5 +79,5 @@ By the max-flow, min-cut theorem, a maximal flow can be found by continually aug
 	3.     augment the flow along p by the residual capacity c<sub>f</sub>(p)
 </pre>	
 
-While this algorithm is not particularly useful for implementation, we can observe that for integer capacities the algorithm runs in O(*E*|*f* <sup>\*</sup>|) since each iteration checks at most *E* edges (e.g. BFS) and increases the flow by at least 1.
+While this algorithm is not particularly useful for implementation, we can observe that for integer capacities the algorithm runs in O(*E*\|*f* <sup>\*</sup>\|) since each iteration checks at most *E* edges (e.g. BFS) and increases the flow by at least 1.
 

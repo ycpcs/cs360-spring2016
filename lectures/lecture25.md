@@ -22,7 +22,7 @@ The *Ford-Fulkerson algorithm* builds upon the general strategy presented last t
 	9.           (v,u).f = (v,u).f - c<sub>f</sub>(p)
 </pre>
 
-This algorithm runs efficiently as long as the value of the maximal flow |*f* <sup>\*</sup>| is reasonably small or if poor augmenting paths are avoided.
+This algorithm runs efficiently as long as the value of the maximal flow \|*f* <sup>\*</sup>\| is reasonably small or if poor augmenting paths are avoided.
 
 Edmonds-Karp Algorithm
 ======================
@@ -35,7 +35,7 @@ Consider the following flow network
 
 > ![image](images/lecture25/MaxFlowexample.png)
 
-Note that clearly |*f* <sup>\*</sup>| ≤ 24 (the smaller of the capacities leaving the source or entering the sink).
+Note that clearly \|*f* <sup>\*</sup>\| ≤ 24 (the smaller of the capacities leaving the source or entering the sink).
 
 *Iteration 1:* Choose the augmenting path *p*<sub>1</sub> = \< *s*, 1, 3, *t* \> which has *c*<sub>f</sub>(*p*<sub>1</sub>) = 12 (due to *c*(1,3)) giving the residual network
 
@@ -53,5 +53,5 @@ At this point there are no other augmenting paths (since vertex 3 is the only ve
 
 > ![image](images/lecture25/MaxFlowexample4.png)
 
-with maximal flow |*f* <sup>\*</sup>| = 19 + 4 = 23 (or 12 + 11 = 23).
+with maximal flow \|*f* <sup>\*</sup>\| = 19 + 4 = 23 (or 12 + 11 = 23).
 

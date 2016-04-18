@@ -29,17 +29,17 @@ The algorithm simply selects an edge (adding the endpoints to the vertex cover) 
 
 Clearly when the algorithm terminates, the set *C* will be a vertex cover (since all edges will be touched by a vertex). Assume line 4 of the algorithm keeps the set of edges *A*. To cover these edges, any vertex cover (including the optimal one *C*<sup>\*</sup>) needs to contain at least one endpoint for each edge. However in *A*, no two edges share an endpoint since once an edge is selected in line 4, all other edges incident to its endpoints are removed. Therefore, no two edges in *A* are covered by the same vertex from *C*<sup>\*</sup> giving
 
-> |*C*<sup>\*</sup>| ≥ |*A*|
+> \|*C*<sup>\*</sup>\| ≥ \|*A*\|
 
 Because the algorithm selects edges with endpoints *not* currently in the set *C*, clearly (since every edge will have 2 distinct vertices)
 
-> |*C*| = 2 |*A*|
+> \|*C*\| = 2 \|*A*\|
 
 Combining these two equations gives
 
-> |*C*<sup>\*</sup>| ≥ |*C*| / 2
+> \|*C*<sup>\*</sup>\| ≥ \|*C*\| / 2
 >
-> ⇒ |*C*| ≤ 2 |*C*<sup>\*</sup>|
+> ⇒ \|*C*\| ≤ 2 \|*C*<sup>\*</sup>\|
 
 Hence the algorithm returns a vertex cover with no more than *twice* the number of vertices in an optimal vertex cover.
 

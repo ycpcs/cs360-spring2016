@@ -77,8 +77,8 @@ Problems in *P* and *NP*
 
 Many seemingly similar problems often are in different classes. One version has a polynomial time solution and is thus in *P*, while only a minor modification to the description makes the variant *NP*-complete. For example
 
->                 **P**                 |                      **NP**                   |
-> ------------------------------------- | --------------------------------------------- |
+> **P** | **NP** |
+> ----- | ------ |
 > 2-CNF                                 | 3-CNF                                         |
 > *Shortest* simple path                | *Longest* simple path                         |
 > *Euler* tour (touch each *edge* once) | *Hamiltonian* tour (touch each *vertex* once) |

@@ -16,11 +16,11 @@ Given an undirected graph *G*, find the *minimum* subset of vertices that touch 
 
 *Proof*
 
-To prove vertex cover is *NP*-complete, we shall reduce any instance of clique to vertex cover using another constructive procedure. The procedure will involve constructing the *complement* graph, which is the graph G̅ that contains the edges *not* in the original graph, i.e. E̅ = {(*u*, *v*) : (*u*, *v*) ∉ *E* }. Then we will show that if the graph *G* has a clique of size *k*, then the complement graph G̅ has a vertex cover of size (|*V*| - *k*).
+To prove vertex cover is *NP*-complete, we shall reduce any instance of clique to vertex cover using another constructive procedure. The procedure will involve constructing the *complement* graph, which is the graph G̅ that contains the edges *not* in the original graph, i.e. E̅ = {(*u*, *v*) : (*u*, *v*) ∉ *E* }. Then we will show that if the graph *G* has a clique of size *k*, then the complement graph G̅ has a vertex cover of size (\|*V*\| - *k*).
 
-Assume *G* has a clique |*V* <sup>'</sup>| of size *k* and let (*u*, *v*) ∈ E̅ ⇒ either *u* or *v* ∉ |*V* <sup>'</sup>| (since if both *u* and *v* were in the clique there would have been an edge between them). Therefore either *u* or *v* must be in *V* - *V* <sup>'</sup> ⇒ edge (*u*, *v*) is covered by *V* - *V* <sup>'</sup>. Thus every edge in E̅ is covered by a vertex in *V* - *V* <sup>'</sup> which has size |*V*| - *k* (since the clique *V* <sup>'</sup> has size *k*).
+Assume *G* has a clique \|*V* <sup>'</sup>\| of size *k* and let (*u*, *v*) ∈ E̅ ⇒ either *u* or *v* ∉ \|*V* <sup>'</sup>\| (since if both *u* and *v* were in the clique there would have been an edge between them). Therefore either *u* or *v* must be in *V* - *V* <sup>'</sup> ⇒ edge (*u*, *v*) is covered by *V* - *V* <sup>'</sup>. Thus every edge in E̅ is covered by a vertex in *V* - *V* <sup>'</sup> which has size \|*V*\| - *k* (since the clique *V* <sup>'</sup> has size *k*).
 
-Conversely assume G̅ has a vertex cover *V* <sup>"</sup> of size |*V*| - *k*. Then if (*u*, *v*) ∈ E̅ ⇒ either *u* or *v* (or both) ∈ *V* <sup>"</sup> (one or both of the vertices must be in the vertex cover since they touch an edge in the complement graph). By the contrapositive, if *u* **and** *v* ∉ *V* <sup>"</sup> then (*u*, *v*) ∈ *E* ⇒ *V* - *V* <sup>"</sup> is a *clique* and has size |*V*| - |*V* <sup>"</sup>| = *k*.
+Conversely assume G̅ has a vertex cover *V* <sup>"</sup> of size \|*V*\| - *k*. Then if (*u*, *v*) ∈ E̅ ⇒ either *u* or *v* (or both) ∈ *V* <sup>"</sup> (one or both of the vertices must be in the vertex cover since they touch an edge in the complement graph). By the contrapositive, if *u* **and** *v* ∉ *V* <sup>"</sup> then (*u*, *v*) ∈ *E* ⇒ *V* - *V* <sup>"</sup> is a *clique* and has size \|*V*\| - \|*V* <sup>"</sup>\| = *k*.
 
 **Example**
 

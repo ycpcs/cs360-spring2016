@@ -3,13 +3,13 @@ layout: default
 title: "Lecture 23: All Pairs Shortest Paths - Floyd-Warshall Algorithm"
 ---
 
-Bellman-Ford and Dijkstra's algorithms provide a means to find the shortest path from a *given* source. However often we may wish to find the shortest paths between *all pairs* of vertices. One way to accomplish this would be to simply run Bellman-Ford or Dijkstra's algorithm for each vertex in the graph. Thus the run times for these strategies would be (particularly for dense graphs where |*E*| ≈ |*V*|<sup>2</sup>):
+Bellman-Ford and Dijkstra's algorithms provide a means to find the shortest path from a *given* source. However often we may wish to find the shortest paths between *all pairs* of vertices. One way to accomplish this would be to simply run Bellman-Ford or Dijkstra's algorithm for each vertex in the graph. Thus the run times for these strategies would be (particularly for dense graphs where \|*E*\| ≈ \|*V*\|<sup>2</sup>):
 
-> **Bellman-Ford** - |*V*| O(*VE*) ≈ O(*V*<sup>4</sup>)
+> **Bellman-Ford** - \|*V*\| O(*VE*) ≈ O(*V*<sup>4</sup>)
 >
-> **Dijkstra** - |*V*| O(*V*<sup>2</sup> + *E*) ≈ O(*V*<sup>3</sup>)
+> **Dijkstra** - \|*V*\| O(*V*<sup>2</sup> + *E*) ≈ O(*V*<sup>3</sup>)
 >
-> > |*V*| O(*V* lg *V* + *E*) ≈ O(*V*<sup>2</sup> lg *V* + *VE*)
+> > \|*V*\| O(*V* lg *V* + *E*) ≈ O(*V*<sup>2</sup> lg *V* + *VE*)
 
 In the case of dense graphs an often more efficient algorithm (with very low hidden constants) for finding all pairs shortest paths is the *Floyd-Warshall algorithm*.
 
