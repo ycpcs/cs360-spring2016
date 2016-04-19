@@ -49,10 +49,11 @@ All reading materials are from the course textbook:
 > Apr 15    | [Lecture 23: Shortest Path - Floyd-Warshall](../lectures/lecture23.html) | Ch. 25 |
 > Apr 18    | [Lecture 24: Maximal Flow](../lectures/lecture24.html) | Ch. 26.1 |
 > Apr 20    | [Lecture 25: Maximal Flow- Ford-Fulkerson](../lectures/lecture25.html) <br /> **Assignment 9 Due** | Ch. 26.2 |
-> Apr 22    | [Lecture 26: NP Completeness](../lectures/lecture26.html) | Ch. 34.1-34.3 |
-> Apr 25    | [Lecture 27: NP Complete Problems](../lectures/lecture27.html) | Ch. 34.4 |
-> Apr 27    | [Lecture 28: More NP Complete Problems](../lectures/lecture28.html) <br /> **Assignment 10 Due** | Ch. 34.5 |
-> Apr 29    | **Exam IV - Due May 4** |  |
+> Apr 20    | [Lecture 26: NP Completeness](../lectures/lecture26.html) | Ch. 34.1-34.3 |
+> Apr 22    | [Lecture 27: NP Complete Problems](../lectures/lecture27.html) | Ch. 34.4 |
+> Apr 25    | [Lecture 28: More NP Complete Problems](../lectures/lecture28.html) <br /> **Assignment 10 Due** | Ch. 34.5 |
+> Apr 27    | **Exam IV - Due May 4** |  |
+> Apr 29    | **NO CLASS** |  |
 > May 2     | [Lecture 29: Approximation Algorithms](../lectures/lecture29.html) | Ch. 35.1-35.2 |
 
 
